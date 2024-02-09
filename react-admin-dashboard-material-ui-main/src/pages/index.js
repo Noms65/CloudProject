@@ -17,7 +17,6 @@ export { default as Pie } from './charts/Pie';
 export { default as Dashboard } from './Dashboard';
 export { default as Login } from './Login';
 export { default as Deconnexion } from './Deconnexion';
-export { default as Inscription } from './Inscription';
 export { default as FormulaireElement_Modele } from './FormulaireElement_Modele';
 export { default as FormulaireElement_Categorie } from './FormulaireElement_Categorie';
 export { default as FormulaireElement_Carburant } from './FormulaireElement_Carburant';

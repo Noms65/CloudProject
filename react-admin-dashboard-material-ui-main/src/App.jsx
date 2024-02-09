@@ -1,4 +1,4 @@
-import { Bar, Calendars, Contacts, Dashboard, FAQ, Geography, InputForm, Invoices, Line, Pie, SidebarMenu, Team, Topbar, FormulaireElement_Categorie, Login ,Inscription,Deconnexion,FormulaireElement_Modele,FormulaireElement_Carburant,FormulaireElement_Marque,Acceuille } from './pages';
+import { Bar, Calendars, Contacts, Dashboard, FAQ, Geography, InputForm, Invoices, Line, Pie, SidebarMenu, Team, Topbar, FormulaireElement_Categorie, Login ,Deconnexion,FormulaireElement_Modele,FormulaireElement_Carburant,FormulaireElement_Marque,Acceuille } from './pages';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CssBaseline, ThemeProvider } from '@mui/material'; // reset all default css
 import { ColorModeContext, useMode } from './styles/theme';
@@ -20,7 +20,6 @@ const App = () => {
 
           <Routes>
             <Route path="/" element={<Login />} exact></Route>
-            <Route path="/Inscription" element={<Inscription />} exact></Route> 
             <Route path="/*" exact element={
               <main className="app">
                 <SidebarMenu />
